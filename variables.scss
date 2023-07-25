@@ -1,0 +1,100 @@
+
+$navbar-padding-y:                  $spacer * .5;
+$navbar-padding-x:                  null;
+
+$navbar-nav-link-padding-x:         .10rem;
+$nav-link-enable-color:
+$navbar-brand-font-size:            $font-size-xl;
+// Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link
+$nav-link-height:                   $font-size-base * $line-height-base + $nav-link-padding-y * 2;
+$navbar-brand-height:               $navbar-brand-font-size * $line-height-base;
+$navbar-brand-padding-y:            ($nav-link-height - $navbar-brand-height) * .5;
+$navbar-brand-margin-end:           1rem;
+
+$navbar-toggler-padding-y:          .25rem;
+$navbar-toggler-padding-x:          .75rem;
+$navbar-toggler-font-size:          $font-size-lg;
+$navbar-toggler-border-radius:      $btn-border-radius;
+$navbar-toggler-focus-width:        $btn-focus-width;
+$navbar-toggler-transition:         box-shadow .15s ease-in-out;
+
+
+$navbar-dark-color:                 rgba($white, .55);
+$navbar-dark-hover-color:           rgba($white, .75);
+$navbar-dark-active-color:          $white;
+$navbar-dark-disabled-color:        rgba($white, .25);
+$navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-dark-toggler-border-color:  rgba($white, .1);
+
+$navbar-light-color:                rgba($black, .55);
+$navbar-light-hover-color:          rgba($black, .7);
+$navbar-light-active-color:         rgba($black, .9);
+$navbar-light-disabled-color:       rgba($black, .3);
+$navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-light-toggler-border-color: rgba($black, .1);
+
+$navbar-light-brand-color:                $navbar-light-active-color;
+$navbar-light-brand-hover-color:          $navbar-light-active-color;
+$navbar-dark-brand-color:                 $navbar-dark-active-color;
+$navbar-dark-brand-hover-color:           $navbar-dark-active-color;
+
+
+
+
+
+
+
+$carousel-control-color:             $white;
+$carousel-control-width:             15%;
+$carousel-control-opacity:           .5;
+$carousel-control-hover-opacity:     .9;
+$carousel-control-transition:        opacity .15s ease;
+
+$carousel-indicator-width:           30px;
+$carousel-indicator-height:          3px;
+$carousel-indicator-hit-area-height: 10px;
+$carousel-indicator-spacer:          3px;
+$carousel-indicator-opacity:         .5;
+$carousel-indicator-active-bg:       $white;
+$carousel-indicator-active-opacity:  1;
+$carousel-indicator-transition:      opacity .6s ease;
+
+$carousel-caption-width:             70%;
+$carousel-caption-color:             $white;
+$carousel-caption-padding-y:         1.25rem;
+$carousel-caption-spacer:            1.25rem;
+
+$carousel-control-icon-width:        2rem;
+
+$carousel-control-prev-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+$carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+
+$carousel-transition-duration:       .6s;
+$carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
+
+$carousel-dark-indicator-active-bg:  $black;
+$carousel-dark-caption-color:        $black;
+$carousel-dark-control-icon-filter:  invert(1) grayscale(100);
+
+$carousel-inner-sizes: 75%;
+
+
+
+//tabs cards
+
+$card-spacer-y:                     $spacer;
+$card-spacer-x:                     $spacer;
+$card-title-spacer-y:               $spacer * .5;
+$card-cap-padding-y:                $card-spacer-y * .5;
+$card-cap-padding-x:                $card-spacer-x;
+$card-cap-bg:                       rgba($black, .03);
+$card-cap-color:                    null;
+$card-height:                       null;
+$card-color:                        null;
+$card-bg:                           $white;
+$card-img-overlay-padding:          $spacer;
+$card-group-margin:                 $grid-gutter-width * .5;
+
+
+
+

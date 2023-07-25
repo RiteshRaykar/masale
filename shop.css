@@ -1,0 +1,154 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  
+  
+  .navbar-brand{
+    padding: 0px 0px 0px 200px;
+  }
+  
+  .navbar-nav li{
+    padding-left: 16px;
+    
+  }
+  
+  ul {
+    display: flex;
+    align-content: flex-end;
+    list-style-type: none;
+    padding: 8px 8px 8px 8px;
+  
+  }
+  .nav-link {
+    transition: 0.4s;
+    font-size: 18px;
+  }
+  
+  .nav-link:hover{
+    transform: scale(1.1);
+  }
+  
+  .nav-link img{
+    color: rgb(77, 71, 71);
+  }
+
+  .dropdown{
+    border: none;
+    background-color: transparent;
+  }
+  .button{
+    border: none;
+    background-color: transparent;
+  }
+  .dropdown-menu a{
+    text-decoration: none;
+    color: rgb(54 54 54);
+    display: block;
+  }
+  .dropdown-menu a:hover{
+    color:#E55472;
+    background-color: white;
+  }
+  a.nav-link:hover{
+    color: #E55472;
+  }
+  
+  
+
+  .ltn__breadcrumb-area {
+    background-color: rgb(207, 204, 204);
+    margin-bottom: 100px;
+    padding-top: 45px;
+    padding-bottom: 40px;
+  }
+  .ltn__breadcrumb-list ul li {
+    display: inline-block;
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+  }
+  li {
+    list-style-type: none;
+    justify-content: center;
+    color: black;
+  }
+  ul {
+    list-style-type: disc;
+    justify-content: center;
+  }
+  
+  
+  .home a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+    justify-content: center;
+  }
+  
+  
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+  
+  div {
+    display: block;
+  }
+  
+  .h1, h1 {
+    font-size: 2.5rem;
+  }
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+  
+  
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+  }
+    
+
+
+
+button.btn.btn-outline-dark.mt-auto:hover{
+  background-color: #E55472;
+}
+
+
+h5.fw-bolder{
+  font-size: 16px;
+}
+
+.card-img-top {
+  padding-top: 50px;
+}
+
+h5.card-title{
+  padding-top: 10px;
+}
+
+.page-link{
+  color: black;
+}
+.page-link:hover{
+  color: #E55472;
+}
+
+
+
+
+
+
+
+

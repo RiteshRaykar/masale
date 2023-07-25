@@ -1,0 +1,36 @@
+button.theme-btn-1.btn.btn-block-50{
+    color: white;
+    background-color: #E55472;
+    border-radius: 0%;
+}
+button.theme-btn-1.btn.btn-block-50:hover{
+    color: white;
+    background-color: #666666;
+}
+
+a.theme-btn-1.btn.black-btn{
+    color: white;
+    background-color: #E55472;
+    border-radius: 0%;
+}
+a.theme-btn-1.btn.black-btn:hover{
+    color: white;
+    background-color: #666666;
+}
+
+
+button.theme-btn-1.btn.reverse-color.btn-block{
+    color: white;
+    background-color: #E55472;
+    border-radius: 0%;
+    width: 50%;
+    text-align: center;
+}
+button.theme-btn-1.btn.reverse-color.btn-block:hover{
+    color: white;
+    background-color: #666666;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
